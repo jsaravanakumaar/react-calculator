@@ -19,9 +19,8 @@ export default class App extends React.Component {
 
   render () {
     return (
-      <div className="calculator-app" onKeyPress={this.handledKeyDown}>
+      <div className="calculator-app">
         <Display value={this.state.next || this.state.total || "0"} />
-
         <ButtonPanel clickHandler={this.handleClick} />
       </div>
     );

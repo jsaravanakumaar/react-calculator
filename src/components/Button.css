@@ -17,6 +17,10 @@
     padding: 0;
 }
 
+.calculator-button button:focus {
+    outline: none;
+}
+
 .calculator-button:last-child button {
     margin-right: 0;
 }

@@ -1,5 +1,30 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# react-calculator
+iOS Style Calculator inspired from https://github.com/ahfarmer/calculator
 
+Added the Keyboard operation using react-hotkeys library https://www.npmjs.com/package/react-hotkeys
+The Keyboard will operate only when the focus is on the the calculator app (panel)
+Key mappings are as follows:
+0 - 0
+1 - 1
+2 - 2
+3 - 3
+4 - 4
+5 - 5
+6 - 6
+7 - 7
+8 - 8
+9 - 9
+AC - c
+Add - a
+Minus - - (hyphen)
+Multiply - x 
+Divide - /
+Equal - =
+Period - .
+Percent - No mapping please use mouse pointer
++/- - No mapping please use mouse pointer
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 ## Available Scripts
 
 In the project directory, you can run:
@@ -64,7 +89,3 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/ad
 This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
 
 ### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
-# react-calculator
-iOS Style Calculator inspired from https://github.com/ahfarmer/calculator

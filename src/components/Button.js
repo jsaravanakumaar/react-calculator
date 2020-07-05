@@ -1,4 +1,5 @@
 import React from 'react';
+
 import PropTypes from 'prop-types';
 import "./Button.css";
 
@@ -21,7 +22,7 @@ export default class Button extends React.Component {
             this.props.wide ? "wide" : ""
         ];
         return (
-            <div className={className.join(" ").trim()}>
+            <div  className={className.join(" ").trim()}>
                 <button onClick={this.handleClick}>{this.props.name}</button>
             </div>
         )
