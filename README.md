@@ -1,27 +1,27 @@
 # react-calculator
 iOS Style Calculator inspired from https://github.com/ahfarmer/calculator
 
-Added the Keyboard operation using react-hotkeys library https://www.npmjs.com/package/react-hotkeys
-The Keyboard will operate only when the focus is on the the calculator app (panel)
-Key mappings are as follows:
-0 - 0
-1 - 1
-2 - 2
-3 - 3
-4 - 4
-5 - 5
-6 - 6
-7 - 7
-8 - 8
-9 - 9
-AC - c
-Add - a
-Minus - - (hyphen)
-Multiply - x 
-Divide - /
-Equal - =
-Period - .
-Percent - No mapping please use mouse pointer
+Added the Keyboard operation using react-hotkeys library https://www.npmjs.com/package/react-hotkeys<br />
+The Keyboard will operate only when the focus is on the the calculator app (panel)<br />
+Key mappings are as follows:<br />
+0 - 0<br />
+1 - 1<br />
+2 - 2<br />
+3 - 3<br />
+4 - 4<br />
+5 - 5<br />
+6 - 6<br />
+7 - 7<br />
+8 - 8<br />
+9 - 9<br />
+AC - c<br />
+Add - a<br />
+Minus - - (hyphen)<br />
+Multiply - x <br />
+Divide - /<br />
+Equal - =<br />
+Period - .<br />
+Percent - No mapping please use mouse pointer<br />
 +/- - No mapping please use mouse pointer
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
